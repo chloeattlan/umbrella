@@ -27,7 +27,7 @@ curr = parsed.fetch("currently")
 temp = curr.fetch("temperature")
 pp "The current temperature is #{temp} degrees Fahrenheit!"
 
-# How the Time works
+# How the Time works 
 require 'time'
 hours = parsed.fetch("hourly")
 # time = hourly['data'][1].fetch('time')
